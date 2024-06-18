@@ -1,0 +1,35 @@
+Array Methods
+
+1. push() - to add an item at the end of an array.
+2. pop() - to remove items at the end of an array.
+3. unshift()- to add an item to the array as its first item
+4. shift() - to remove an item from the first index
+5. sort() - to arrange a given array in ascending or desc order - return the same array.
+6. flat(depth) - to change the dimension of an array - returns a new array
+7. for each() - to access each items from the given array- returns void - so no further array method can be applied.
+8. map() - access each item and returns a new array with the same number of element that of parent array. - can apply further array methods.
+9. reduce((n1,n2) => statement) - returns a single value 
+10. filter(num => statement) - returns a new array of elements satisfying a specified condition.
+11. some(num => statement)- returns a boolean value if the given condition is true, else false.
+12. find(num => statement)- it returns the first item that satisfies the given condition. 
+13. includes() - returns a boolean value based on the given item. checks if the given item is present in the array or not.
+14.indexOf(item-name)- returns the index of a given element. item-name whose index u need to find
+15. lastIndexOf() 
+16. splice(startingindex,delete count,item)- to add/remove items from any position of the arrya
+17. slice(startIndex, endIndex) - sub array having the same element as the parent array, endIndex will be excluded.
+negativ values can be given too , to start frm the back(end of thr array)
+
+Different ways of accessing an array
+
+1. for loop - index
+2. in - index
+3. of - item
+
+
+String Methods
+
+1. length()
+2. endsWith()
+3. startsWith()
+4. toUpperCase()
+5. toLowerCase()

@@ -1,0 +1,12 @@
+const weekdays = ['sunday','monday'];
+console.log(weekdays);
+console.log(typeof(weekdays));
+console.log(weekdays[1]);
+weekdays.push('tues');
+weekdays.push('wednesday');
+weekdays.push('thursday');
+console.log(weekdays);
+weekdays.push(3);
+console.log(weekdays);
+weekdays.pop();
+console.log(weekdays);
